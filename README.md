@@ -1,2 +1,2 @@
-# aarushi100.github.com
+# http://aarushi100.github.com
 My personal website
