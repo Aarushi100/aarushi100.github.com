@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <!--
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+     <title>Get Fit</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body style= "background-color: teal; color: white; font-size: 14pt;"> 
+    <h1>Body Fat Percentage Calculator</h1>
+    <form id="BodyFatForm">
+        <table>
+            <tr>
+                <td>
+                   Age:
+                </td>
+                <td> 
+                    <input type="text" placeholder="age" age="" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gender: 
+                </td>
+                <td>
+                    <input type="radio" id="male" name="Gender">Male 
+                    <input type="radio" id="female" name="Gender">Female
+                    <input type="radio" id="other" name="Gender"> Other
+                    <input style="display: none; padding: 3px;" id="specifyother" type="text" name="Other" placeholder="Specify here"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Neck Length (cm):
+                </td>
+                <td>
+                    <input type= "text" placeholder="neck length (cm)" id="UserNeck" name="" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Waist Length (cm):
+                </td>
+                <td>
+                    <input type= "text" placeholder="waist length (cm)" id="UserWaist" name="" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Height Length (cm):
+                </td>
+                <td>
+                    <input type= "text" id="UserHeight" placeholder= "height length (cm)" required>
+                </td> 
+            </tr>
+        </table>
+        <button type= "submit" > Calculate </button> 
+        <p style="color: white;" id="GiveUserBodyFat"> </p>
+    </form>
+
+    <script src="jquery-2.1.4.min.js"></script>
+    <script src="bodyfat.js"></script>
+   
+</body>
+</html>
