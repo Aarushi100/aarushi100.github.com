@@ -1,2 +1,2 @@
-# http://aarushi100.github.com
+# http://getfit.github.com
 My personal website
